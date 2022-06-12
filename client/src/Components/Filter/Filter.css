@@ -1,0 +1,43 @@
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px 22px 80px;
+}
+
+.filterIconWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    color: #717171;
+    /* background-color: #ffd43b; */
+    padding: 5px;
+}
+
+.filterIcon{
+    font-size: 20px;
+}
+
+.filterIconWrapper>span{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.filters{
+    color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 21px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.filters>span{
+    font-size: 12px;
+    font-weight: bold;
+}
