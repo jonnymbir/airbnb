@@ -1,0 +1,54 @@
+.places{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.placesItems{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.placesLike{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.placesImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.placesLocation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.starIcon{
+    font-size: 12px;
+}
+
+.placesDistance, .placesDuration{
+    color: #717171;
+    font-size: 14px;
+}
+
+.placesPrice{
+    margin-top: 5px;
+}
+
+.placeSlider{
+    position: sticky;
+   
+    z-index: 999;
+    display: flex;
+    align-items: center;
+  }
